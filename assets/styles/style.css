@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primary: #321fdb;
+  --secondary: #ced2d8;
+  --success: #2eb85c;
+  --info: #39f;
+  --warning: #f9b115;
+  --danger: #e55353;
+  --light: #ebedef;
+  --font-family-x: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  font-family: var(--font-family-x);
+  background-color: var(--info);
+}
+.nav-bar {
+  display: flex;
+  background-color: var(--primary);
+  justify-content: space-between;
+  padding: 2em 0;
+  width: 100%;
+  margin: 0;
+  top: 0;
+  position: fixed;
+}
+.nav-logo {
+  max-width: 100%;
+  height: auto;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  color: var(--light);
+  padding-right: 1em;
+}
+.nav-link li {
+  list-style: none;
+  font-size: 1rem;
+  text-transform: capitalize;
+  padding: 0 1em;
+}
+.nav-bar li a {
+  text-decoration: none;
+  color: var(--light);
+}
+.fas {
+  color: var(--light);
+  font-size: 1.5em;
+}
+.btn {
+  border: 1px solid var(--light);
+  border-radius: 5rem;
+  padding: 0.7em 1em;
+  cursor: pointer;
+}
+
+#btn-reg {
+  background-image: linear-gradient(335.64deg, #ff589b -19.22%, #ff136f 118.87%);
+  border: none;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15em 1em 5em 0;
+  flex-wrap: wrap;
+}
+
+.form-container{
+  color: #ced2d8;
+ text-align: center;
+  background-color: var(--primary);
+  width: 400px;
+  border-radius: 2em;
+  padding: 2em;
+}
+.img-div img{
+  max-width: 100%;
+}
+
+.form-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.form-group{
+  padding: 1em;
+
+}
+.form-group input , button{
+  border-radius: 25px;
+  font-size: 1.2em;
+  padding: 1.5em;
+  font-weight: 700;
+}
+
+.form-group a{
+  color: var(--danger);
+  text-decoration: none;
+}
+
+
+
+
+
+
+.footer-section{
+  background-color: var(--primary);
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5em;
+  align-items: center;
+
+
+}
+.footer-section img{
+  max-width: 100%;
+}
+.footer-section li{
+  list-style: none;
+  padding: .5em;
+  font-size: 1.2em;
+}

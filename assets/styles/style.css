@@ -6,7 +6,7 @@
   --primary: #321fdb;
   --secondary: #ced2d8;
   --success: #2eb85c;
-  --info: #39f;
+  --info: #421fdbef;
   --warning: #f9b115;
   --danger: #e55353;
   --light: #ebedef;
@@ -20,6 +20,7 @@ body {
   display: flex;
   background-color: var(--primary);
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 2em 0;
   width: 100%;
   margin: 0;
@@ -73,7 +74,6 @@ body {
   color: #ced2d8;
  text-align: center;
   background-color: var(--primary);
-  width: 400px;
   border-radius: 2em;
   padding: 2em;
 }
@@ -90,10 +90,9 @@ body {
 }
 .form-group{
   padding: 1em;
-
 }
 .form-group input , button{
-  border-radius: 25px;
+  border-radius: 2em;
   font-size: 1.2em;
   padding: 1.5em;
   font-weight: 700;
@@ -114,8 +113,10 @@ body {
   margin-top: 100px;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   padding: 1.5em;
   align-items: center;
+
 
 
 }
@@ -126,4 +127,5 @@ body {
   list-style: none;
   padding: .5em;
   font-size: 1.2em;
+
 }
